@@ -1,0 +1,73 @@
+CSS
+
+For design:
+
+1. Add HTML tag
+<font> </font> tag : without any information, just the design
+
+2. CSS a new language
+<style> </style> : without repetitions, easy maintenance, design separated (HTML for information, CSS for design)
+
+selector: 지정된 것 (선택자) (a)
+declaration: selector에 줄 효과, 선언 (color:red)
+property: 속성, 효과 (color)
+vale: property의 값 (red)
+
+CSS 사용하는 2가지 방법
+1. style tag
+2. style 속성
+
+효과는 ;로 구분
+text-decoration: none -> remove underlines
+text-decoration: underline -> add underlines
+
+PROPERTY
+color, text-decoration, font-size, text-align
+
+SELECTOR
+tag, element: 포괄적
+class, .___: grouping, 묶는다
+	class(속성)는 띄어쓰기로 구분
+	순서대로 영향을 받음 (나중에 된 것, 가장 최근, 가장 가까운 것)
+id, #___: 우선순위 class보다 높다, 중복되어서는 안된다, 유일무이한 값, 구체적, 예외
+
+선택자 순위: id>class>tag (같은 거라면 가장 마지막이 우선순위 높다)
+
+BOX MODEL (부피감 결정, 디자인에 매우 중요)
+border: border-width, border-color, border-style
+<h1>: 화면 전체 (block level element)
+<a>: content의 부피만큼만 (자기 크기) (inline level element)
+display: block, display:inline으로 바꿀 수 있음 (안보이게 하려면 display:none)
+중복 없애기 위해 ,로 묶을 수 있음
+padding: content와 테두리 사이에 간격 생성
+margin: 테두리와 테두리 사이의 간격 (0, 20px)
+width: tag, element의 크기를 변경
+height: 높이
+
+padding: 안쪽
+margin: 바깥쪽
+
+GRID
+<div></div>: 의미 없이 디자인을 위한 태그, block(level) element, 화면 전체 (id 지정 가능)
+<span></span>: 의미 없이 디자인을 위한 태그,  inline element
+display:grid
+grid-template-columns (같은 column)
+fr은 자동으로 조정하는 단위
+
+MEDIA QUERY (responsive design)
+@media: 화면의 크기에 따라 유동적으로 변화
+min-width, max-width
+
+중복의 제거, 재사용성 증가 (reusable)
+style.css로 만들고 
+<link rel="stylesheet" href="style.css">
+-> network 측면에서도 효율적 due to caching
+
+오른쪽 click, 검사에서 스타일 등등 확인할 수 있음 (분석 시)
+
+caniuse.com: 얼마나 사용되는지 확인 가능 (grid 검색해 본다)
+주석: /* */
+
+
+
+
