@@ -1,0 +1,73 @@
+Cause: Code, Source, Language
+Result: Application, App, Program, Webpage, Website
+
+HTML-Easy, Important, Public domain
+
+HTML Editor-Atom
+
+web brozer -> ctrl+O
+
+TAG
+<strong> <strong/>
+<u> </u>
+<h1></h1>
+<br>
+<p> </p>
+<img>
+<li> </li>
+<ul> </ul>
+<ol> </ol>
+<head> </head>
+<body> </body>
+<html> </html>
+<a> </a>
+
+ATTRIBUTE (order free)
+<src>
+<width>
+<href>
+<target>
+<title>
+
+
+Internet vs. WEB
+WEB, FTP, email,... included in the Internet
+1960: Internet was introduced
+1990: WEB was introduced (enquire -> world wide web -> web server(info.cern.ch)(primitive web))
+
+Internet
+Web Browser --> Web Server (request)
+Web Server --> Web Browser (response)
+Web Browser: Client
+Web Server: Server
+
+Web hosting(company), Web server(my computer)
+
+Free static web hosting: www.bitballoon.com, neocities.org, Amazon S3, Google Cloud Storage, Azure Blob
+
+Web server: Apache(open source, free), IIS, Nginx
+(how to install apache http server window)
+(bitnami wamp stack)
+127.0.0.1 Web browser's IP Address
+http: web browser, web server communication protocol
+
+HTML + internet
+CSS: web publisher, web designer
+JavaScript: web front end engineer, web interactivedesigner
+Back end: PHP, JSP Node.js, Python, Django
+
+cf)
+w3 (World Wide Web)
+
+www.advancedwebranking.com/html/
+
+www.unsplash.com
+
+html specification
+
+disqus.com: comment source code
+tawk.to: chatting source code
+analytics.google.com: web page visitor analysis
+
+주석: <!-- -->
+ 
